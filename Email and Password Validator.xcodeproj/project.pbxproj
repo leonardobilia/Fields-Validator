@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		8F30339921ECBCA0007EB59D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30339821ECBCA0007EB59D /* AppDelegate.swift */; };
 		8F30339B21ECBCA0007EB59D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30339A21ECBCA0007EB59D /* ViewController.swift */; };
-		8F30339E21ECBCA0007EB59D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F30339C21ECBCA0007EB59D /* Main.storyboard */; };
 		8F3033A021ECBCA1007EB59D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F30339F21ECBCA1007EB59D /* Assets.xcassets */; };
 		8F3033A321ECBCA1007EB59D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3033A121ECBCA1007EB59D /* LaunchScreen.storyboard */; };
+		8F3033AB21ECC0F2007EB59D /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3033AA21ECC0F2007EB59D /* String+Ext.swift */; };
+		8F3033AD21ECC29C007EB59D /* TextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3033AC21ECC29C007EB59D /* TextField+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8F30339521ECBCA0007EB59D /* Email and Password Validator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Email and Password Validator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F30339821ECBCA0007EB59D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F30339A21ECBCA0007EB59D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8F30339D21ECBCA0007EB59D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F30339F21ECBCA1007EB59D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F3033A221ECBCA1007EB59D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F3033A421ECBCA1007EB59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F3033AA21ECC0F2007EB59D /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		8F3033AC21ECC29C007EB59D /* TextField+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,21 @@
 			children = (
 				8F30339821ECBCA0007EB59D /* AppDelegate.swift */,
 				8F30339A21ECBCA0007EB59D /* ViewController.swift */,
-				8F30339C21ECBCA0007EB59D /* Main.storyboard */,
+				8F3033AE21ECC2EB007EB59D /* Extensions */,
 				8F30339F21ECBCA1007EB59D /* Assets.xcassets */,
 				8F3033A121ECBCA1007EB59D /* LaunchScreen.storyboard */,
 				8F3033A421ECBCA1007EB59D /* Info.plist */,
 			);
 			path = "Email and Password Validator";
+			sourceTree = "<group>";
+		};
+		8F3033AE21ECC2EB007EB59D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8F3033AA21ECC0F2007EB59D /* String+Ext.swift */,
+				8F3033AC21ECC29C007EB59D /* TextField+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +135,6 @@
 			files = (
 				8F3033A321ECBCA1007EB59D /* LaunchScreen.storyboard in Resources */,
 				8F3033A021ECBCA1007EB59D /* Assets.xcassets in Resources */,
-				8F30339E21ECBCA0007EB59D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,21 +146,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F30339B21ECBCA0007EB59D /* ViewController.swift in Sources */,
+				8F3033AB21ECC0F2007EB59D /* String+Ext.swift in Sources */,
 				8F30339921ECBCA0007EB59D /* AppDelegate.swift in Sources */,
+				8F3033AD21ECC29C007EB59D /* TextField+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8F30339C21ECBCA0007EB59D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F30339D21ECBCA0007EB59D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8F3033A121ECBCA1007EB59D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
