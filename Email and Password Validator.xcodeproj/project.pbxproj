@@ -13,6 +13,7 @@
 		8F3033A321ECBCA1007EB59D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3033A121ECBCA1007EB59D /* LaunchScreen.storyboard */; };
 		8F3033AB21ECC0F2007EB59D /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3033AA21ECC0F2007EB59D /* String+Ext.swift */; };
 		8F3033AD21ECC29C007EB59D /* TextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3033AC21ECC29C007EB59D /* TextField+Ext.swift */; };
+		8FEA4257238CAECD0085FFFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8FEA4256238CAECD0085FFFA /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8F3033A421ECBCA1007EB59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F3033AA21ECC0F2007EB59D /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		8F3033AC21ECC29C007EB59D /* TextField+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Ext.swift"; sourceTree = "<group>"; };
+		8FEA4256238CAECD0085FFFA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		8F30338C21ECBCA0007EB59D = {
 			isa = PBXGroup;
 			children = (
+				8FEA4256238CAECD0085FFFA /* README.md */,
 				8F30339721ECBCA0007EB59D /* Email and Password Validator */,
 				8F30339621ECBCA0007EB59D /* Products */,
 			);
@@ -134,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FEA4257238CAECD0085FFFA /* README.md in Resources */,
 				8F3033A321ECBCA1007EB59D /* LaunchScreen.storyboard in Resources */,
 				8F3033A021ECBCA1007EB59D /* Assets.xcassets in Resources */,
 			);

@@ -1,4 +1,4 @@
-# Email-and-Password-Validator
+# Email and Password Validator
 Using a String RegEx extension you can validate fields such as Email and Password.
 
 ![](images/device.png)
