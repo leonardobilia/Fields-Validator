@@ -1,12 +1,11 @@
 //
-//  Extensions.swift
-//  Email and Password Validator
+//  String+Ext.swift
+//  Fields Validator
 //
-//  Created by Leonardo Bilia on 1/14/19.
-//  Copyright © 2019 Leonardo Bilia. All rights reserved.
+//  Created by Leonardo Bilia on 23/08/20.
 //
 
-import UIKit
+import SwiftUI
 
 extension String {
     
@@ -14,21 +13,6 @@ extension String {
         case email, password
     }
     
-    /**
-    Check if the email or password address follows the RegEx specifications.
-     
-    - Parameters:
-       - type : defined by the enum ValidateFieldType with the cases .email and .password
-    
-    Usage:
-    ````
-     if !email.valid(.email) {
-         print("The email is not valid")
-         return
-     }
-     print("The email is valid")
-    ````
-    */
     func valid(_ type: ValidateFieldType) -> Bool {
         switch type {
         case .email:
