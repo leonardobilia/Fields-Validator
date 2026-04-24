@@ -1,12 +1,22 @@
 # Fields Validator
-Using a String RegEx extension you can validate fields such as Email and Password. The failed validation is being represented by changing the TextField border to RED reactively.
+
+A small SwiftUI portfolio project that demonstrates reactive form validation with modern Swift and iOS APIs. The app validates email and password fields with native Swift Regex literals, derives UI state from an `@Observable` form model, and uses iOS 26 Liquid Glass styling for the form surface and primary action.
 
 ![](Screenshots/device.png)
 
-
 # Built With
-[SwiftUI](https://developer.apple.com/xcode/swiftui/)
 
+- iOS 26+
+- Swift 6
+- [SwiftUI](https://developer.apple.com/xcode/swiftui/)
+- Observation (`@Observable`)
+- Native Swift Regex APIs
+
+# Project Structure
+
+- `App` - SwiftUI app entry point.
+- `Features/Validator` - form state and validation UI.
+- `Shared/Validation` - reusable validation rules built with Swift Regex.
 
 # Contributing
 
