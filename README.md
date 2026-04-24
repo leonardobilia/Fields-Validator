@@ -15,8 +15,8 @@ A small SwiftUI portfolio project that demonstrates reactive form validation wit
 # Project Structure
 
 - `App` - SwiftUI app entry point.
-- `Features/Validator` - form state and validation UI.
-- `Shared/Validation` - reusable validation rules built with Swift Regex.
+- `Features/Validator` - form screen, components, state, and Swift Regex validation rules.
+- `Modifiers` - shared SwiftUI view modifiers.
 
 # Contributing
 
